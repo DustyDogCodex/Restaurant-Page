@@ -1,23 +1,28 @@
 *{
     font-family: 'Roboto Mono', monospace;
+    color: #FF6F61;
 }
 
 body{
     margin: 0;
-    padding: 0;
+    padding: 10%;
     background-image: url("https://i.ibb.co/pfxvZDZ/indian-restaurant-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-li{
-    list-style-type: none;
+#content {
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(0, 0, 0, 0.5);
 }
