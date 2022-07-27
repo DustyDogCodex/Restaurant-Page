@@ -56,3 +56,8 @@ body{
     border-radius: 40px;
     transform: scale(1.2);
 }
+
+.menu > div {
+    display: flex;
+    flex-direction: column;
+}
