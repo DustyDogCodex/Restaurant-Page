@@ -17,6 +17,7 @@ body{
     text-align: center;
 }
 
+/* Styling for the content div where all wep pages will be displayed */
 #content {
     display: flex;
     flex-direction: column;
@@ -30,6 +31,7 @@ body{
     font-size: 40px;
 }
 
+/* container for nav tabs at the top of the screen */
 .tabContainer {
     position: fixed;
     top: 0;
@@ -43,6 +45,7 @@ body{
     align-items: center;
 }
 
+/* styling for buttons inside nav bar */
 .tabContainer > button {
     margin: 10px 50px; 
     font-size: 28px;
@@ -57,7 +60,60 @@ body{
     transform: scale(1.2);
 }
 
+/* Styling for menu divs */
 .menu > div {
     display: flex;
     flex-direction: column;
+}
+
+/* styling for contact us section */
+.contact {
+    background: rgb(0, 0, 0, 0.6);
+}
+
+.contact > div {
+    margin: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* I want the socials to be in a row not a column */
+#socials {
+    flex-direction: row;
+}
+
+/* Styling for social media logos from font awesome library */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* hover effect for socials logos */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Specific colors for each social */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: gold;
+  color: white;
 }
