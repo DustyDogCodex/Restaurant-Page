@@ -40,15 +40,19 @@ body{
     background: rgb(0, 0, 0, 0.5);
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .tabContainer > button {
     margin: 10px 50px; 
     font-size: 28px;
+    padding: 5px 20px;
     border: 0;
     background: none;
 }
 
 .tabContainer > button:hover{
     background: lightgray;
+    border-radius: 40px;
+    transform: scale(1.2);
 }
