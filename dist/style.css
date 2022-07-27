@@ -1,5 +1,6 @@
 *{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
     color: #FF6F61;
 }
 
@@ -25,4 +26,20 @@ body{
     align-items: center;
     text-align: center;
     background: rgb(0, 0, 0, 0.5);
+}
+
+#content > h1 {
+    font-size: 40px;
+}
+
+.tabContainer {
+    /* height: 50vh;
+    width: 70vw; */
+    padding: 20px;
+}
+
+.tabContainer > button {
+    margin: 20px;
+    font-size: 20px;
+
 }
