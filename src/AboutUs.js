@@ -1,5 +1,5 @@
-class LoadPage {
-    static WelcomeHeading() {
+class AboutUs {
+    static Description() {
         const content = document.querySelector('#content')
         const intro = document.createElement('div')
         const title = document.createElement('h1')
@@ -19,8 +19,9 @@ class LoadPage {
         intro.appendChild(para1)
         intro.appendChild(para2)
         intro.appendChild(para3)
+        
         content.appendChild(intro)
     }
 }
 
-export { LoadPage }
+export { AboutUs }
