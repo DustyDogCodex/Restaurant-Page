@@ -8,6 +8,9 @@ class HomePage {
         homeHeading.innerText = 'Welcome to the Jade Peacock'
         tagline.innerText = 'A taste of home, far away from home'
 
+        homeHeading.classList.add('home')
+        tagline.classList.add('homeTagline')
+
         homeDiv.appendChild(homeHeading)
         homeDiv.appendChild(tagline)
 

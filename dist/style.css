@@ -17,6 +17,16 @@ body{
     text-align: center;
 }
 
+/* Styling for Home page heading and tagline */
+.home {
+    font-size: 50px;
+}
+
+.homeTagline {
+    font-size: 40px;
+}
+
+
 /* Styling for the content div where all wep pages will be displayed */
 #content {
     display: flex;
@@ -55,7 +65,7 @@ body{
 }
 
 .tabContainer > button:hover{
-    background: lightgray;
+    background: #7DF9FF;
     border-radius: 40px;
     transform: scale(1.2);
 }
