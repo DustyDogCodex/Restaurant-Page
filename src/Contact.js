@@ -1,5 +1,5 @@
 class Contact {
-    static contactUs() {
+    static ContactUs() {
         const content = document.querySelector('#content')
         const contactDiv = document.createElement('div')
         const contactInfo = document.createElement('div')
