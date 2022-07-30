@@ -1,6 +1,6 @@
 class NavigationTabs {
     static Tabs() {
-        const content = document.querySelector('#content')
+        const content = document.querySelector('.nav')
         const tabContainer = document.createElement('div')
         const home = document.createElement('button')
         const aboutUs = document.createElement('button')
